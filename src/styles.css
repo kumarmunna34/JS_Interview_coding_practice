@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+
+.Q_wrapper {
+  margin: 15px 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Question row (side by side) */
+.Q_row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600; /* slightly bold */
+}
+
+/* Question number */
+.questNo {
+  font-weight: bold;
+}
+
+/* Question text */
+.questions {
+  margin: 0;
+}
+
+/* Answer row (below with background) */
+.A_row {
+  margin-top: 8px;
+  /* background-color: rgb(240, 213, 217); */
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* Answer text */
+.answers {
+  margin: 0;
+}
+
+pre {
+  border-radius: 8px;
+  padding: 12px;
+  overflow-x: auto;
+}
