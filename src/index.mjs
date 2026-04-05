@@ -1,7 +1,3 @@
-import "./styles.css";
-import Prism from "prismjs";
-import "prismjs/themes/prism-tomorrow.css";
-import "prismjs/components/prism-javascript";
 import { Q_Array, A_Array } from "./questions.mjs";
 
 const printInnerHtml = "print using innerHtml";

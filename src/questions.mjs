@@ -1,7 +1,5 @@
-// import
-
-export let Q_Array = ["Ques1", "Ques2", "Ques3"];
-export let A_Array = ["Answer1", "Answer2", "Answer3"];
+export const Q_Array = ["Ques1", "Ques2", "Ques3"];
+export const A_Array = ["Answer1", "Answer2", "Answer3"];
 
 //write a code to illustrate all parameter of reduce.
 
@@ -26,3 +24,5 @@ A_Array[1] = `
 
   output: ${sum}
 `;
+
+// export { Q_Array, A_Array };
